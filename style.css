@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+/*font-family: 'Kelly Slab', cursive;*/
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+background-image: linear-gradient(to right, rgb(109, 170, 135), rgba(0, 255, 0, 0.543));
+}
+header{
+    height: 10vh;
+    background-color: rgba(59, 236, 62, 0.388);
+}
+header h1{
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.954);
+    font-family: 'Kelly Slab', cursive;
+    text-align: center;
+    font-weight: bolder;
+}
+mark{
+    background-color: rgba(240, 248, 255, 0);
+}
+table{
+    border-collapse: collapse;
+    max-width: 500px;
+    margin: auto;
+}
+td, th{
+    text-align: center;
+    padding: 15px;
+    border: black solid 1px;
+}
+th{
+    background:rgba(59, 236, 62, 0.388) ;
+}
+img{
+    margin-right: 10px;
+    height: 25px;
+}
+img:hover{
+    height: 150px;
+}
+section{
+    padding: 10px;
+    min-height: 100%;
+    max-width: 70%;
+    margin: auto;
+    background-color: white;
+}
