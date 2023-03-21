@@ -12,17 +12,15 @@ html, body{
     width: 100%;
 }
 body{
-    
 background-image:url(imagens/estadio.jpg);
 background-attachment: fixed;
 background-position: center center;
-
 }
 header{
-    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.331);
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.331);
     border-radius: 1px 1px 1px;
     height: 85px;
-    background-color: rgba(59, 236, 62, 0.009);
+    background-color: rgb(59, 236, 62);
 }
 header h1{
     padding: 15px;
