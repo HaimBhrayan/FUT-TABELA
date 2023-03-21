@@ -42,7 +42,7 @@ table{
 td, th{
     text-align: center;
     padding: 15px;
-    border: black solid 1px;
+    border: black solid 0.5px;
 }
 th{
     background:rgba(59, 236, 62, 0.388) ;
@@ -57,10 +57,16 @@ img:hover{
 section{
     padding: 10px;
     min-height: 100%;
-    max-width: 80%;
+    max-width: 85vw;
     margin: auto;
     border-radius: 5px 5px 5px 5px;
     background-color: white;
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
 }
 section h2{
     text-align: center;
